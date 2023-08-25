@@ -1,5 +1,5 @@
 # Danielbaker31.github.io
-This is my personal portfolio website created with JavaScript and React.js.
+This is my personal portfolio website created with JavaScript and React.js. I am learning :), this is a work in progress.
 
 # Getting Started with Create React App
 
