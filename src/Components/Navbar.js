@@ -9,14 +9,14 @@ function Navbar() {
     const [expandNavbar, setExpandNavbar] = useState(false);
     
     // below allows the navbar to cahnge state to closed (false) upon clicking a link on the Navbar.
-    const location = useLocation;
+    const location = useLocation();
 
     useEffect(() => {
         setExpandNavbar(false)
     }, [location])
 
     return (
-        <div className="Navbar" id={expandNavbar ? "open" : "close"}>
+        <div className="navbar" id={expandNavbar ? "open" : "close"}>
             <div className="toggleButton">
                 
                 <button onClick={() => {setExpandNavbar((prev) => (!prev))}}> 
@@ -25,8 +25,8 @@ function Navbar() {
             </div>
             <div className="links">
                 <Link to="/"> Home </Link>
-                <Link to="/projects"> Experience </Link>
-                <Link to="/experience"> Projects </Link>
+                <Link to="/experience"> Experience </Link>
+                <Link to="/skills"> Skills </Link>
             </div>
         </div>
     );

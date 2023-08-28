@@ -3,11 +3,11 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from '@material-ui/icons/GitHub';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
 import Link from '@material-ui/core/Link';
-import "../Styles/Footer.css"
+import "../Styles/Footer.css";
 
 function Footer() {
     return (
-        <div className="Footer">
+        <div className="footer">
             <div className="socialMedia">
             <Link href="https://github.com/Danielbaker31/">
                 <GitHubIcon />
@@ -20,6 +20,7 @@ function Footer() {
             </Link>
             </div>
             <p> Created by Daniel Baker, 2023</p>
+            <p> My first project using JS, React.js, HTML, and CSS!</p>
 
         </div>
     );
