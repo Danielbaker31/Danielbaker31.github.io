@@ -39,7 +39,7 @@ function Home() {
                     <figure align={alignRight ? "right" : "center"}>
                         <img 
                             src ={require('../pics/img1.jpg')}
-                            style={{width: 440, height: 550, borderRadius: 100/ 2}}
+                            style={{borderRadius: 100/ 2}}
                             alt="alternatetext"/>
                         <figcaption> Great Sand Dunes NP, CO </figcaption>
                     </figure>
