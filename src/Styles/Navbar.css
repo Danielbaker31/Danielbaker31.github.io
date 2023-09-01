@@ -55,12 +55,6 @@
   }
   
   @media only screen and (max-width: 900px) {
-    .navbar a {
-      width: 70px;
-    }
-  }
-  
-  @media only screen and (max-width: 600px) {
     .toggleButton {
       display: flex;
     }
@@ -69,7 +63,7 @@
     }
   }
   
-  @media only screen and (min-width: 600px) {
+  @media only screen and (min-width: 900px) {
     .toggleButton {
       display: none;
     }

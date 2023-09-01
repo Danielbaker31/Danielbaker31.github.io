@@ -12,7 +12,7 @@ function Skills() {
                 </li>
                 <li className="item">
                     <h2> Developer Tools </h2>
-                    <span> KiCad, LabView, Git/Github, Linux, GNU Debugger, React.js, Cadence Design Software, Microsoft Office </span>
+                    <span> KiCad, LabView, Git/GitHub, Linux, GNU Debugger, React.js, Node.js, Cadence Design Software, Docker, Microsoft Office </span>
                 </li>
                 <li className="item">
                     <h2> Industry Skills </h2>

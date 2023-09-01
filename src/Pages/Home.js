@@ -7,6 +7,12 @@ import { Image } from 'react-native'
 import "../Styles/Home.css";
 
 function Home() {
+    let alignRight = true;
+
+    if (window.innerWidth <= 1150) {
+        alignRight = false;
+    }
+
     return (
         <div className="home">
             <div className="intro">
@@ -29,11 +35,22 @@ function Home() {
                 </div>
             </div>
             <div className="aboutMe">
-                <h1> About Me </h1>
-                <div className="paragraph">
-                    <p> I love trying and learning new things. </p>
-                    <p> Academically and professionally, this gets me excited and motivated about new classes, intern roles, or projects, such as creating this personal website. </p>
-                    <p> In my personal life, it motivates me to travel, or pick up new hobbies. This year, I have experienced Colorado, Italy, and Croatia, and picked up photography, boxing, and brazilian jiu jitsu as hobbies.  </p>
+                <div className="column">
+                    <figure align={alignRight ? "right" : "center"}>
+                        <img 
+                            src ={require('../pics/img1.jpg')}
+                            style={{width: 440, height: 550, borderRadius: 100/ 2}}
+                            alt="alternatetext"/>
+                        <figcaption> Great Sand Dunes NP, CO </figcaption>
+                    </figure>
+                </div>
+                <div className="column">
+                    <div className="paragraph">
+                        <h1> About Me </h1>
+                        <p> I love trying and learning new things. </p>
+                        <p> Academically and professionally, this gets me excited about new classes, work experiences, or projects, such as creating this personal website. </p>
+                        <p> In my personal life, this motivates me to travel. This year, I packed my bag and traveled to Colorado, Italy, and Croatia, where I met new lifelong friends from around the world. If you have suggestions for my next destination, let me know!</p>
+                    </div>
                 </div>
             </div>
         </div>
