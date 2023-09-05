@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.67095cfc.css",
-    "main.js": "/static/js/main.82cc6d2b.js",
+    "main.css": "/static/css/main.56d80b11.css",
+    "main.js": "/static/js/main.1154bfe8.js",
     "static/js/787.71e672d5.chunk.js": "/static/js/787.71e672d5.chunk.js",
     "static/media/issTeamPhoto.jpg": "/static/media/issTeamPhoto.56e90f1f261d496fd722.jpg",
     "static/media/headshot.JPG": "/static/media/headshot.e90a2b1c157c8c2239a2.JPG",
     "static/media/img1.jpg": "/static/media/img1.a405c545d04d8ab1dc87.jpg",
     "static/media/battleship.jpg": "/static/media/battleship.ae6559f8bc43b3eb079b.jpg",
-    "static/media/frontPage.jpg": "/static/media/frontPage.7b2a56d049aba3043a80.jpg",
+    "static/media/frontPage.jpg": "/static/media/frontPage.8ac9feca97a1ef4e3d08.jpg",
     "index.html": "/index.html",
-    "main.67095cfc.css.map": "/static/css/main.67095cfc.css.map",
-    "main.82cc6d2b.js.map": "/static/js/main.82cc6d2b.js.map",
+    "main.56d80b11.css.map": "/static/css/main.56d80b11.css.map",
+    "main.1154bfe8.js.map": "/static/js/main.1154bfe8.js.map",
     "787.71e672d5.chunk.js.map": "/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.67095cfc.css",
-    "static/js/main.82cc6d2b.js"
+    "static/css/main.56d80b11.css",
+    "static/js/main.1154bfe8.js"
   ]
 }
