@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.67095cfc.css",
-    "main.js": "/static/js/main.5325c35e.js",
+    "main.js": "/static/js/main.82cc6d2b.js",
     "static/js/787.71e672d5.chunk.js": "/static/js/787.71e672d5.chunk.js",
     "static/media/issTeamPhoto.jpg": "/static/media/issTeamPhoto.56e90f1f261d496fd722.jpg",
     "static/media/headshot.JPG": "/static/media/headshot.e90a2b1c157c8c2239a2.JPG",
@@ -10,11 +10,11 @@
     "static/media/frontPage.jpg": "/static/media/frontPage.7b2a56d049aba3043a80.jpg",
     "index.html": "/index.html",
     "main.67095cfc.css.map": "/static/css/main.67095cfc.css.map",
-    "main.5325c35e.js.map": "/static/js/main.5325c35e.js.map",
+    "main.82cc6d2b.js.map": "/static/js/main.82cc6d2b.js.map",
     "787.71e672d5.chunk.js.map": "/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.67095cfc.css",
-    "static/js/main.5325c35e.js"
+    "static/js/main.82cc6d2b.js"
   ]
 }
