@@ -51,6 +51,7 @@ function Home() {
                     <div className="paragraph">
                         <h1> About Me </h1>
                         <p> I love trying and learning new things. </p>
+                        <a href="Danielbaker31.github.io/src/Assets/Resume.pdf" target="_blank">PDF.</a>
                         <p> Academically and professionally, this gets me excited about new classes, work experiences, or projects, such as creating this personal website. </p>
                         \\wsl.localhost\Ubuntu\home\drbaker5\Personal Portfolio Website\website\src\Assets\Resume.pdf
                         <p> In my personal life, this motivates me to travel. This year, I packed my bag and traveled to Colorado, Italy, and Croatia, where I met new lifelong friends from around the world. If you have suggestions for my next destination, let me know!</p>
