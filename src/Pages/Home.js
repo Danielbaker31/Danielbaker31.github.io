@@ -51,7 +51,7 @@ function Home() {
                     <div className="paragraph">
                         <h1> About Me </h1>
                         <p> I love trying and learning new things. </p> 
-                        <li><a href="./Resume.html" target="_blank">
+                        <li><a href="../Assets//Resume.html" target="_blank">
                         <p>resume</p>
                         </a></li>
                         <p> Academically and professionally, this gets me excited about new classes, work experiences, or projects, such as creating this personal website. </p>
