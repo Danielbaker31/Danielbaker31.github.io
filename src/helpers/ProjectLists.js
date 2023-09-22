@@ -16,7 +16,7 @@ export const projectList = [
         image: battleship,
         skills: "C, GNU Debugger, Linux",
         link:"https://github.com/Danielbaker31/ECE220-Honors-Project",
-        description:  "Enhanced C programming skills and my bottom-top understanding of computing systems by creating Battleship game on a Linux machine."
+        description:  "Enhanced C programming skills and my bottom-up understanding of computing systems by creating Battleship game on a Linux machine."
     },
 
     {
