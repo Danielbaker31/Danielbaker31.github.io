@@ -1,6 +1,10 @@
 import React from "react";
 import "../Styles/Skills.css";
 
+/* Skills.js
+ * Through react and JSX, this file contains the HTML code for the skills page
+ * simply use HTML DOM to format page, using list of headings (skill catagory), span (skills part of the category)
+ */
 function Skills() {
     return (
         <div className="skills">
