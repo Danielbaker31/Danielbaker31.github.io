@@ -2,9 +2,7 @@ import React from "react";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from '@material-ui/icons/GitHub';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
-import ArticleIcon from '@mui/icons-material/Article';
 import Link from '@material-ui/core/Link';
-import { Button } from "@material-ui/core";
 import { Image } from 'react-native'
 import "../Styles/Home.css";
 
