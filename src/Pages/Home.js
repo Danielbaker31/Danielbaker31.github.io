@@ -8,6 +8,13 @@ import { Button } from "@material-ui/core";
 import { Image } from 'react-native'
 import "../Styles/Home.css";
 
+/* Home.js
+ * Through react and JSX, this file contains the HTML code for the home page
+ * Two sections: intro and aboutMe 
+ * intro: headshot, professional statement, and MaterialUI icons that are hyperlinks
+ * aboutMe: picture of hobby, about me paragraph. 
+ *          automatically adjusts picture and paragraph alignment according to window width
+ */
 function Home() {
     let alignRight = true;
 
@@ -24,7 +31,7 @@ function Home() {
                 />
                 <h2> Hi, my name is Daniel </h2>
                 <div className="headline">
-                    <p> I am computer engineering and economics student eager to learn and challenge myself with new software engineering experiences. </p>
+                    <p> I am a computer engineering and economics student eager to learn and challenge myself with new software engineering experiences. </p>
                     <Link href="https://github.com/Danielbaker31/">
                         <GitHubIcon />
                     </Link>
