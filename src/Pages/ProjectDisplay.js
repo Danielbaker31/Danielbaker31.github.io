@@ -5,7 +5,15 @@ import { projectList } from "../helpers/ProjectLists";
 import GitHubIcon from '@material-ui/icons/GitHub';
 import Link from '@material-ui/core/Link';
 
-
+/* ProjectDisplay.js
+ * Through react and JSX, this file contains the HTML code for formatting how a project' page, from ProjectLists, will be displayed on click of its card
+ * React's useParams() helps find the correct project to display from projectList
+ * heading: project.name 
+ * paragraph: project.desciption
+ * img: paragraphs card image
+ * paragraph: project.skills
+ * materialUI github icon: project.link
+ */
 function ProjectDisplay() {
     const { id } = useParams();
     const project = projectList[id];

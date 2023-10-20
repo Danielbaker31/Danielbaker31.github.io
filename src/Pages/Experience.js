@@ -4,6 +4,11 @@ import "react-vertical-timeline-component/style.min.css";
 import SchoolIcon from "@material-ui/icons/School";
 import WorkIcon from "@material-ui/icons/Work";
 
+/* Expereince.js
+ * Through react and JSX, this file contains the HTML code for the experience page
+ * Use VerticleTimeline to display expereinces
+ *  - 
+ */
 function Experience() {
     return (
         <div className="experience">

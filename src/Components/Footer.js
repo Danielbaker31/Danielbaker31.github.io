@@ -5,6 +5,11 @@ import MailOutlineIcon from '@material-ui/icons/MailOutline';
 import Link from '@material-ui/core/Link';
 import "../Styles/Footer.css";
 
+/* Footer.js
+ * Through react and JSX, this file contains the HTML code for the footer
+ * use MaterialUI to again link important URLS
+ * add little note on bottom to claim website in a way lol
+ */
 function Footer() {
     return (
         <div className="footer">

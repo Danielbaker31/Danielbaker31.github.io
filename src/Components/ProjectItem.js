@@ -1,6 +1,10 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
+/* ProjectItem.js
+ * functionality for displaying preview cards of projects (backgroundImage)
+ * functionality for navigating to corresponding project page on click of its card (useNavigate())
+ */
 function ProjectItem({ name, image, id }) {
     const navigate = useNavigate();
     return (
