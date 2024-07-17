@@ -25,18 +25,37 @@ function Experience() {
                     <h3 className="vertical-timeline-element--title"> University of Illinois Urbana-Champaign </h3>
                     <h4 className="vertical-timeline-element--subtitle"> Bachelor of Science - BS, Computer Engineering </h4>
                     <h4 className="vertical-timeline-element--subtitle"> Bachelor of Arts - BA, Economics </h4>
-                    <p> Involvement: University of Hong Kong Exchange Student (SP24), Illini Boxing Team, Illinois Space Society, Delta Chi Fraternity </p>
+                    <p> Involvement: Illini Boxing Team, Illinois Space Society, Delta Chi Fraternity </p>
                     <p> Honors: ECE James Scholar Honors Student, Dean's List, Computer Systems and Programming Honors Program </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement 
                     className="vertical-timeline-element--work"
-                    date="Summer 2022"
+                    date="Summer 2024"
                     iconStyle={{ background: "#FB8122", color: "#fff" }}
                     icon={<WorkIcon/>}
                 >
-                    <h3 className="vertical-timeline-element--title"> Eberhard Manufacturing Company </h3>
-                    <h4 className="vertical-timeline-element--subtitle"> Electrical Engineering Intern </h4>
-                    <p> Troubleshoot and upgraded electro-mechanical products as well as designed external embedded systems. </p>
+                    <h3 className="vertical-timeline-element--title"> Microsoft </h3>
+                    <h4 className="vertical-timeline-element--subtitle"> Software Engineer Intern </h4>
+                    <p> Developed and deployed AI Audience Analytics for Viva’s more than 35M MAU. Allows leadership to gauge team dynamics and sentiment through trending themes and summaries, top conversations, and sentiment analysis. </p>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement 
+                    className="vertical-timeline-element--education"
+                    date="Spring 2024"
+                    iconStyle={{ background: "#1D2228", color: "#fff" }}
+                    icon={<SchoolIcon/>}
+                >
+                    <h3 className="vertical-timeline-element--title"> University of Hong Kong </h3>
+                    <h4 className="vertical-timeline-element--subtitle"> Exchange Student Semester </h4>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement 
+                    className="vertical-timeline-element--work"
+                    date="Summer 2023"
+                    iconStyle={{ background: "#FB8122", color: "#fff" }}
+                    icon={<WorkIcon/>}
+                >
+                    <h3 className="vertical-timeline-element--title"> Northrop Grumman </h3>
+                    <h4 className="vertical-timeline-element--subtitle"> Software Engineering Intern </h4>
+                    <p> Created software and hardware to accurately and efficiently test products as a part of the RF Systems Manufacturing Test team within Operations. </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement 
                     className="vertical-timeline-element--work"
@@ -50,32 +69,13 @@ function Experience() {
                 </VerticalTimelineElement>
                 <VerticalTimelineElement 
                     className="vertical-timeline-element--work"
-                    date="Summer 2023"
+                    date="Summer 2022"
                     iconStyle={{ background: "#FB8122", color: "#fff" }}
                     icon={<WorkIcon/>}
                 >
-                    <h3 className="vertical-timeline-element--title"> Northrop Grumman </h3>
-                    <h4 className="vertical-timeline-element--subtitle"> Software Engineering Intern </h4>
-                    <p> Created software and hardware to accurately and efficiently test products as a part of the RF Systems Manufacturing Test team within Operations. </p>
-                </VerticalTimelineElement>
-                <VerticalTimelineElement 
-                    className="vertical-timeline-element--education"
-                    date="Spring 2024"
-                    iconStyle={{ background: "#1D2228", color: "#fff" }}
-                    icon={<SchoolIcon/>}
-                >
-                    <h3 className="vertical-timeline-element--title"> University of Hong Kong </h3>
-                    <h4 className="vertical-timeline-element--subtitle"> Exchange Student Semester </h4>
-                </VerticalTimelineElement>
-                <VerticalTimelineElement 
-                    className="vertical-timeline-element--work"
-                    date="Summer 2024"
-                    iconStyle={{ background: "#FB8122", color: "#fff" }}
-                    icon={<WorkIcon/>}
-                >
-                    <h3 className="vertical-timeline-element--title"> Microsoft </h3>
-                    <h4 className="vertical-timeline-element--subtitle"> Software Engineer Intern </h4>
-                    <p> Developed and deployed AI Audience Analytics for Viva’s more than 35M MAU. Allows leadership to gauge team dynamics and sentiment through trending themes and summaries, top conversations, and sentiment analysis. </p>
+                    <h3 className="vertical-timeline-element--title"> Eberhard Manufacturing Company </h3>
+                    <h4 className="vertical-timeline-element--subtitle"> Electrical Engineering Intern </h4>
+                    <p> Troubleshoot and upgraded electro-mechanical products as well as designed external embedded systems. </p>
                 </VerticalTimelineElement>
             </VerticalTimeline>
         </div>

@@ -57,7 +57,7 @@ function Home() {
                         <h1> About Me </h1>
                         <p> I love trying and learning new things. </p> 
                         <p> Academically and professionally, this gets me excited about new classes, work experiences, or projects, such as creating this personal website. </p>
-                        <p> In my personal life, this means I'm constantly juggling a bunch of hobbies—from film photography to boxing to travel.</p>
+                        <p> In my personal life, this means I'm constantly juggling a bunch of hobbies—from backpacking to film photography to boxing.</p>
                     </div>
                 </div>
             </div>
