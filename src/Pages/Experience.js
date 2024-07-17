@@ -58,6 +58,25 @@ function Experience() {
                     <h4 className="vertical-timeline-element--subtitle"> Software Engineering Intern </h4>
                     <p> Created software and hardware to accurately and efficiently test products as a part of the RF Systems Manufacturing Test team within Operations. </p>
                 </VerticalTimelineElement>
+                <VerticalTimelineElement 
+                    className="vertical-timeline-element--education"
+                    date="Spring 2024"
+                    iconStyle={{ background: "#1D2228", color: "#fff" }}
+                    icon={<SchoolIcon/>}
+                >
+                    <h3 className="vertical-timeline-element--title"> University of Hong Kong </h3>
+                    <h4 className="vertical-timeline-element--subtitle"> Exchange Student Semester </h4>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement 
+                    className="vertical-timeline-element--work"
+                    date="Summer 2024"
+                    iconStyle={{ background: "#FB8122", color: "#fff" }}
+                    icon={<WorkIcon/>}
+                >
+                    <h3 className="vertical-timeline-element--title"> Microsoft </h3>
+                    <h4 className="vertical-timeline-element--subtitle"> Software Engineer Intern </h4>
+                    <p> Developed and deployed AI Audience Analytics for Viva’s more than 35M MAU. Allows leadership to gauge team dynamics and sentiment through trending themes and summaries, top conversations, and sentiment analysis. </p>
+                </VerticalTimelineElement>
             </VerticalTimeline>
         </div>
     );
