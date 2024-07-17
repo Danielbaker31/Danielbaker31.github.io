@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.56d80b11.css",
-    "main.js": "/static/js/main.5fcd0601.js",
+    "main.js": "/static/js/main.32208364.js",
     "static/js/787.71e672d5.chunk.js": "/static/js/787.71e672d5.chunk.js",
     "static/media/issTeamPhoto.jpg": "/static/media/issTeamPhoto.56e90f1f261d496fd722.jpg",
-    "static/media/headshot.JPG": "/static/media/headshot.7299cd814be23bad7105.JPG",
+    "static/media/headshot.JPG": "/static/media/headshot.4dd54fe7e9e6f9b7dbe4.JPG",
     "static/media/img1.jpg": "/static/media/img1.a405c545d04d8ab1dc87.jpg",
     "static/media/frontPage.jpg": "/static/media/frontPage.594cc071065940fd59ff.jpg",
     "static/media/battleship.jpg": "/static/media/battleship.ae6559f8bc43b3eb079b.jpg",
     "index.html": "/index.html",
     "main.56d80b11.css.map": "/static/css/main.56d80b11.css.map",
-    "main.5fcd0601.js.map": "/static/js/main.5fcd0601.js.map",
+    "main.32208364.js.map": "/static/js/main.32208364.js.map",
     "787.71e672d5.chunk.js.map": "/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.56d80b11.css",
-    "static/js/main.5fcd0601.js"
+    "static/js/main.32208364.js"
   ]
 }
