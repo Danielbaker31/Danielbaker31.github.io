@@ -24,8 +24,15 @@ function Home() {
         <div className="home">
             <div className="intro">
                 <Image 
-                    source={require('../Assets/headshot.JPG')}  
-                    style={{width: 275, height: 275, borderRadius: 400/ 2, borderWidth: 5, borderColor: 'white'}} 
+                    source={require('../Assets/square_ai_spiderman_headshot.jpg')}  
+                    style={{width: 275,
+                        height: 275,
+                        borderRadius: '50%',
+                        borderWidth: 5,
+                        borderColor: 'white',
+                        objectFit: 'cover',
+                        overflow: 'hidden',
+                        transform: 'scale(1.2)'}} 
                 />
                 <h2> Hi, my name is Daniel </h2>
                 <div className="headline">
