@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import {Link, useLocation} from "react-router-dom";
-import ReorderIcon from "@material-ui/icons/Reorder";
-import "../Styles/Navbar.css";
+import ReorderIcon from "@mui/icons-material/Reorder";
+import "../Styles/Navbar.css";  
 
-/* Navbar.js
+/* Navbar.jsx
  * Through react and JSX, this file contains the HTML code for the Navigation bar
  * functionality for routing to correct page upon click of route on header
  * functionality for toggling the navigation bar (3 dots only when on a small width window)

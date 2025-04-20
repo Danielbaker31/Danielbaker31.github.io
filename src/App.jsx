@@ -1,4 +1,5 @@
 import './App.css';
+import React from "react";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home';
 import Experience from './Pages/Experience';
@@ -8,7 +9,7 @@ import Skills from './Pages/Skills';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 
-/* App.js
+/* App.jsx
  * Through React, React Router, and JSX, this file contains the HTML code how app looks no matter the current page route
  * Format is:
  * 1.) Top Navigation Bar/header

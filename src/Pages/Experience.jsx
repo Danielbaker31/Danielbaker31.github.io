@@ -1,10 +1,10 @@
 import React from "react";
 import {VerticalTimeline, VerticalTimelineElement} from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import SchoolIcon from "@material-ui/icons/School";
-import WorkIcon from "@material-ui/icons/Work";
+import SchoolIcon from "@mui/icons-material/School";
+import WorkIcon from "@mui/icons-material/Work";
 
-/* Experience.js
+/* Experience.jsx
  * Through react and JSX, this file contains the HTML code for the experience page
  * Use VerticleTimeline to display experiences: 
  *  - class element--education for univeristy, class element--work for work experience

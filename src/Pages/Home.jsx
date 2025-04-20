@@ -1,12 +1,13 @@
 import React from "react";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import GitHubIcon from '@material-ui/icons/GitHub';
-import MailOutlineIcon from '@material-ui/icons/MailOutline';
-import Link from '@material-ui/core/Link';
-import { Image } from 'react-native'
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from '@mui/icons-material/GitHub';
+import MailOutlineIcon from '@mui/icons-material/MailOutline';
+import Link from '@mui/material/Link';
+import headshot from "../Assets/square_ai_spiderman_headshot.jpg";
+import img1 from "../Assets/img1.jpg";
 import "../Styles/Home.css";
 
-/* Home.js
+/* Home.jsx
  * Through react and JSX, this file contains the HTML code for the home page
  * Two sections: intro and aboutMe 
  * intro: headshot, professional statement, and MaterialUI icons that are hyperlinks
@@ -23,17 +24,13 @@ function Home() {
     return (
         <div className="home">
             <div className="intro">
-                <Image 
-                    source={require('../Assets/square_ai_spiderman_headshot.jpg')}  
-                    style={{width: 275,
-                        height: 275,
-                        borderRadius: '50%',
-                        borderWidth: 5,
-                        borderColor: 'white',
-                        objectFit: 'cover',
-                        overflow: 'hidden',
-                        transform: 'scale(1.2)'}} 
-                />
+                <div className="home-image-wrapper">
+                    <img
+                    src={headshot}
+                    alt="Daniel Baker headshot"
+                    className="home-image"
+                    />
+                </div>
                 <h2> Hi, my name is Daniel </h2>
                 <div className="headline">
                     <p> I am a computer engineering and economics student eager to learn and challenge myself with new software engineering experiences. </p>
@@ -52,10 +49,10 @@ function Home() {
             <div className="aboutMe">
                 <div className="column">
                     <figure align={alignRight ? "right" : "center"}>
-                        <img 
-                            src ={require('../Assets/img1.jpg')}
-                            style={{borderRadius: 100/ 2}}
-                            alt="alternatetext"/>
+                        <img
+                            src={img1}
+                            alt="Great Sand Dunes NP, CO"
+                            className="my-about-photo"/>
                         <figcaption> Great Sand Dunes NP, CO </figcaption>
                     </figure>
                 </div>
