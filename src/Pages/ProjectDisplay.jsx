@@ -2,10 +2,10 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import "../Styles/ProjectDisplay.css";
 import { projectList } from "../helpers/ProjectLists";
-import GitHubIcon from '@material-ui/icons/GitHub';
-import Link from '@material-ui/core/Link';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import Link from '@mui/material/Link';
 
-/* ProjectDisplay.js
+/* ProjectDisplay.jsx
  * Through react and JSX, this file contains the HTML code for formatting how a project' page, from ProjectLists, will be displayed on click of its card
  * React's useParams() helps find the correct project to display from projectList
  * heading: project.name 

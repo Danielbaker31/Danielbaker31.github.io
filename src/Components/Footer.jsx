@@ -1,11 +1,11 @@
 import React from "react";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import GitHubIcon from '@material-ui/icons/GitHub';
-import MailOutlineIcon from '@material-ui/icons/MailOutline';
-import Link from '@material-ui/core/Link';
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from '@mui/icons-material/GitHub';
+import MailOutlineIcon from '@mui/icons-material/MailOutline';
+import Link from '@mui/material/Link';
 import "../Styles/Footer.css";
 
-/* Footer.js
+/* Footer.jsx
  * Through react and JSX, this file contains the HTML code for the footer
  * use MaterialUI to again link important URLS
  * add little note on bottom to claim website in a way lol
