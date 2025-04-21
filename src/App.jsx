@@ -2,6 +2,7 @@ import './App.css';
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home';
+import Chatbot from "./Pages/Chatbot";
 import Experience from './Pages/Experience';
 import Projects from './Pages/Projects';
 import ProjectDisplay from './Pages/ProjectDisplay';
@@ -22,7 +23,7 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Chatbot />} />
           <Route path="/Experience" element={<Experience />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/projects/:id" element={<ProjectDisplay />} />

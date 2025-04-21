@@ -20,6 +20,11 @@
   .footer p {
     color: #E1E2E2;
   }
+
+  .chatbot-page ~ footer,
+  .chatbot-page ~ .footer {
+    display: none;
+  }
   
   @media only screen and (max-width: 600px) {
     .footer svg {
